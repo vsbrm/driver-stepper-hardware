@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:driver-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Diode:BAV99 D1
+L driver-rescue:BAV99-Diode D1
 U 2 1 5D9A9BF0
 P 5550 1450
 F 0 "D1" H 5550 1665 50  0000 C CNN
@@ -26,7 +25,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 5550 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV99 D1
+L driver-rescue:BAV99-Diode D1
 U 1 1 5D9A9FF3
 P 6050 1450
 F 0 "D1" H 6050 1665 50  0000 C CNN
